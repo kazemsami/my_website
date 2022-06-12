@@ -51,7 +51,7 @@ function draw() {
 		text("Loading, please wait...", (windowWidth / 2) - 80, (windowHeight / 2)- 155);
 	}else {
 		createCanvas(windowWidth,windowHeight - 70);
-		background(248, 236, 194);
+		background(255, 255, 255);
 	}
 }
 
