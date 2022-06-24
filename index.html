@@ -21,7 +21,7 @@
 </head>
 <body id="home">
     <nav itemscope itemtype="https://schema.org/SiteNavigationElement">
-        <div>
+        <div class="nav-bar">
             <ul>
             <li itemprop="mainEntity">
                 <a style="color: #708090;" href="#home" class="scroll">Home</a>
@@ -34,14 +34,7 @@
             </li>
             <li>
                 <a style="color: #708090;" href="Snake" target="_blank">Snake</a>
-                </li>
-                <li class="hover-text">
-                <a style="color: #708090;">Guides<img src="img/arrow.png" class="arrow"></a>
-                <ul>
-                    <li><a style="color: #708090;" href="Xampp">Host your own domain</a></li>
-                    <li><a style="color: #708090;" href="OSRS">Osrs money making methods</a></li>
-                </ul>
-                </li>
+            </li>
             <div itemscope itemtype="https://schema.org/DonateAction">
                 <li itemprop="potentialAction">
                 <a class="scroll" style="color: #708090;position:absolute;left:85%;" href="#donate">Donate</a>
@@ -58,17 +51,50 @@
             </li>
             </ul>
         </div>
+        <div style="float: right;direction: rtl;text-align: left;" class="nav-bar-res">
+            <ul style="">
+            <li>
+                <img width="50px" src="img/dropdown.png">
+                <ul>
+                    <li itemprop="mainEntity">
+                        <a style="color: #708090;" href="#home" class="scroll">Home</a>
+                    </li>
+                    <li itemprop="game">
+                        <a style="color: #708090;" href="#download" class="scroll">Download</a>
+                    </li>
+                    <li>
+                        <a href="#articles" style="color:#708090;" class="scroll">Articles</a>
+                    </li>
+                    <li>
+                        <a style="color: #708090;" href="Snake" target="_blank">Snake</a>
+                    </li>
+                    <li itemscope itemtype="https://schema.org/DonateAction">
+                        <a class="scroll" style="color: #708090;" href="#donate">Donate</a>
+                    </li>
+                    
+                    <li itemscope itemtype="https://meta.schema.org/Property">
+                        <a style="color: #708090;position:" href="#contact" class="scroll">Contact</a>
+                    </li>
+                    <li>
+                        <a href="Game_of_Thrones" style="color:#708090;">Game of Thrones New surprise</a>
+                    </li>
+                </ul>
+            </li>
+            </ul>
+        </div>
     </nav>
 
     <header background="img/heaven.jpg">
-        <div itemscope itemtype="https://schema.org/Game">
+        <div style="display: flex;align-items: center;justify-content: center;flex-direction: column;padding:100px;" itemscope itemtype="https://schema.org/Game">
             <h1 itemprop="name"><strong>warriors of heaven</strong></h1>
             <h2 itemprop="description">A free single player text based MMORPG. So use your imagination!</br>New free graphical edition available!</h2>
-            <a href="#download" class="scroll"><button type="button">Download</button></a>
         </div>
+        <div style="position:relative;left:50%">
+            <a href="#download" class="scroll"><button type="button">Download</button></a>
+        </div>  
     </header>
 
-    <section id="download">
+    <section id="download" style="display: flex;align-items: center;justify-content: center;flex-direction: column;">
         <div itemscope itemtype="https://schema.org/Game">
         <div class="downl-align">
             <h2 itemprop="name" style="color: whitesmoke; font-family: Lobster, monospace;">Download Warriors of Heaven</h2>
